@@ -1,0 +1,29 @@
+body{
+    margin:0
+}
+.seconddiv{
+    border:1px solid rgb(124, 43, 43);
+    margin:30px 10px 0px 0px;
+    padding: 20px;
+    width: 10%;
+    border-radius: 10%;
+    /* background-color: brown; */
+
+}
+/* this for color changing while hovering taxt */
+.seconddiv:hover 
+{
+    color: blue;
+}
+.firstdiv{
+    display: flex;
+    flex-direction: row;
+    /* background-color: yellow; */
+}
+@media  screen and (min-width :480px) and (max-width:720px){
+    .seconddiv{
+
+        flex-direction: column;
+    }
+    
+}
